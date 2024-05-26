@@ -9,11 +9,8 @@ print(name, last_name, age, country)
 item = "yellow"
 item2 = "house"
 
+
 print(item + item2)
-
-
-
-
 
 
 print(50 + 50)
@@ -27,4 +24,3 @@ print(573 / 3)
 print(650 // 5)
 print(248 // 4)
 print(6 ** 7)
-

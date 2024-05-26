@@ -1,7 +1,7 @@
 #print("hello world")
 #print(10)
 
-#name(luka)
+#name = "luka"
 
 #last_name = "xarebava"
 
@@ -23,7 +23,5 @@
 #print(100 / 2) # / atwiladi
 #print(100 // 2) # // gayofa
 
-name1 = "luka"
 
-print(name)
 
