@@ -99,13 +99,135 @@ goto(1, 200)
 pendown()
 
 left(90)
+forward(220)
+left(90)
 forward(150)
 left(90)
-forward(60)
+forward(70)
 left(90)
+forward(150)
+
+#now we need GOA sign on our flag, so lets draw it.
+
+penup()
+goto(-110, 400)
+pendown()
+
+width(1)
+left(180)
+forward(30)
+left(90)
+forward(42)
+left(90)
+forward(30)
+left(90)
+forward(20)
+left(90)
+forward(20)
+
+penup()
+goto(-80, 400)
+pendown()
+
+circle(20)
+
+penup()
+goto(-55, 358)
+pendown()
+
+right(115)
+forward(50)
+right(140)
+forward(50)
+
+penup()
+goto(-45, 378)
+pendown()
+left(75)
+forward(20)
+
+#now lets draw king
+
+penup()
+goto(-150, -100)
+pendown()
+
+circle(10)
+
+penup()
+goto(-150, -100)
+pendown()
+
+right(90)
+forward(50)
+
+left(30)
 forward(40)
-left(90)
-forward(60)
+
+
+penup()
+goto(-150, -100)
+pendown()
+
+right(30)
+forward(50)
+right(30)
+forward(40)
+
+penup()
+goto(-150, -125)
+pendown()
+
+right(110)
+forward(40)
+
+penup()
+goto(-150, -125)
+pendown()
+
+right(90)
+forward(40)
+
+#now lets draw queen
+
+penup()
+goto(-50, -125)
+pendown()
+
+circle(10)
+right(120)
+
+penup()
+goto(-56, -126)
+pendown()
+
+right(10)
+forward(50)
+left(30)
+forward(40)
+
+penup()
+goto(-56, -175)
+pendown()
+
+right(60)
+forward(40)
+
+penup()
+goto(-56, -150)
+pendown()
+
+right(100)
+forward(40)
+
+penup()
+goto(-56, -150)
+pendown()
+
+left(250)
+forward(40)
+
+
 
 #python will automaticly close our drawing. to stop this action we need to type exitonclick(). so when we click on our drawing it will close only then.
 
