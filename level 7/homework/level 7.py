@@ -1,15 +1,20 @@
-#name = input("What is your name: ")
-#last_name = input("What is your last name: ")
-#age =  input("What is your age: ")
-#country =  input("Where are you from: ")
-#favourite_color = input("What is your favourite color: ")
-#favourite_car_brand = input("What is your favourite car brand: ")
+#თქვენს თავზე შემოიტანეთ ინფორმაცია: სახელი, გვარი, ასაკი, ქვეყანა, საყვარელი მანქანა, საყვარელი ფერი და ფავორიტი რიცხვი, შემოტანილი მნიშვნელობებით ააწყვეთ ერთი დიდი წინადადება.
 
-#print(name, last_name, age, country, favourite_color, favourite_car_brand )
+name = input("What is your name: ")
+last_name = input("What is your last name: ")
+age =  input("What is your age: ")
+country =  input("Where are you from: ")
+favourite_color = input("What is your favourite color: ")
+favourite_car_brand = input("What is your favourite car brand: ")
+
+print(name, last_name, age, country, favourite_color, favourite_car_brand )
 
 
 
 
+
+
+#ორ მომხმარებლის შორის ააგეთ დიალოგი ნებისმიერ თემატიკაზე.
 
 dialog_1 = input("hello what is your name: ")
 dialog_2 = input("hi my name is giorgi, what is your name: ")
