@@ -1,24 +1,24 @@
-# 1)for loop - ის დახმარებით, 126 - დან, 0 - მდე, საპირისპირო მიმართულებით გამოიტანეთ რიცხვები, ჯერ 1 ნაბიჯით, შემდეგ 2 ნაბიჯით და შემდეგ 3 ნაბიჯით.(126, 125, 124 და ა.შ)
 
+# numbers = [2, 3, 4, 5]
 
+# product = 1
 
-# for i in range(126,0,-1):
-#     print(i)
+# for number in numbers:
+#     product *= number
 
-
-
-# for i in range(126,0,-2):
-#       print(i)
-
-
-
-# for i in range(126,0,-3):
-#       print(i)
+# print("ყველა ელემენტის ნამრავლია:", product)
 
 
 
 
 
+# numbers = [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
+
+
+# subset = numbers[0:9]
+
+
+# print("0-დან 8 ინდექსის ჩათვლით ელემენტები:", subset)
 
 
 
@@ -26,55 +26,22 @@
 
 
 
-# 2)for loop - ის დახმარებით 1 - დან 47 - მდე გამოიტანეთ რიცხვების ჯამი, გამოიყენეთ ( + )ოპერატორი, ხოლო შემდეგ განახორციელეთ იგივე რამ, ( * ) - ოპერატორზე.
+# numbers = [2, 7, 3, 10, 4]
+
+# for number in numbers:
+#     if number < 5:
+#         print("რიცხვი ნაკლებია 5-ზე:", number)
 
 
+
+
+# numbers = [3, 7, 12, 5, 9, 10, 4, 6, 8, 11]
 
 # sum = 0
-# for i in range(1,47):
-#     sum += i
-# print(sum)
-    
 
+# for number in numbers:
+#     sum += number
 
-# sum = 1
-# for i in range(1,47):
-#      sum *= i
-# print(sum)
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# 3)while loop  - ის დახმარებით, დაითვალეთ რიცხვი 100 - დან 1 - მდე.
-
-# sum = 100
-# while sum > 1:
-#     print(sum)
-#     sum -= 1
-
-
-
-
-
-
-
-
-
-
-
-
+# print("ყველა რიცხვის ჯამი არის:", sum)
 
 
