@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    background: #4caf50;
+    color: white;
+    padding: 1em 0;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+.animal {
+    margin: 20px auto;
+    padding: 10px;
+    max-width: 600px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: white;
+    text-align: center;
+}
+
+.animal img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.animal h2 {
+    color: #4caf50;
+    font-size: 1.8em;
+}
+
+.animal p {
+    color: #333;
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+footer {
+    text-align: center;
+    background: #222;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
