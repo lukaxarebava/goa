@@ -1,0 +1,13 @@
+#idstyled {
+    color: blue;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.classstyled {
+    color: green;
+    font-size: 28px;
+    font-style: italic;
+    text-align: left;
+}
