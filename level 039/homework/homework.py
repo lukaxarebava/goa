@@ -1,1 +1,1 @@
-print("homework is codewars")
+print("codewars. photos are in folder")

@@ -1,36 +1,36 @@
 # 1)
 
-# name = input("LUKA: ")
+name = input("LUKA: ")
 
-# name = name.lower()
+name = name.lower()
 
-# print(f"პატარა ასოებით: {name}")
+print(f"პატარა ასოებით: {name}")
 
 
 # 2)
 
-# surname = "xarebava"
+surname = "xarebava"
 
-# surname_upper = surname.upper()
+surname_upper = surname.upper()
 
-# print(f"დიდი ასოებით: {surname_upper}")
+print(f"დიდი ასოებით: {surname_upper}")
 
 
 # 3)
 
-# text = "hello"
+text = "hello"
 
-# text_capitalized = text.capitalize()
+text_capitalized = text.capitalize()
 
-# print(f"შედეგი: {text_capitalized}")
+print(f"შედეგი: {text_capitalized}")
 
 
 # 4)
 
-# words = ["gold", "luka", "car", "burger"]
+words = ["gold", "luka", "car", "burger"]
 
-# uppercase_words = []
-# for word in words:
-#     uppercase_words.append(word.upper())
+uppercase_words = []
+for word in words:
+     uppercase_words.append(word.upper())
 
-# print("დიდ ასოებად:", uppercase_words)
+print("დიდ ასოებად:", uppercase_words)
