@@ -1,1 +1,1 @@
-print("no classwork")
+print("codewar photos are in folder")

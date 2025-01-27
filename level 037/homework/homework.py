@@ -1,1 +1,1 @@
-print("homework is code wars")
+print("code wars pictures are in folder.")
