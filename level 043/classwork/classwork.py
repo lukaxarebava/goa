@@ -1,0 +1,1 @@
+print("classwor is codewars photos are in folder")
