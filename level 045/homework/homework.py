@@ -1,0 +1,1 @@
+print("davalebda gvqonda rom salkaso dagvesrulebinda classwork foldershi maq gaketebuli")
