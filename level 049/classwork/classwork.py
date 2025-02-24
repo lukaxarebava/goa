@@ -1,0 +1,1 @@
+print("codewars photos are in folder")
