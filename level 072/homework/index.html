@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+  <!-- 1. Global Scope
+     ცვლადები და ფუნქციები, რომლებიც დეკლარებულია გლობალურ დონეზე, ხელმისაწვდომია
+     ყველგან კოდის ნებისმიერ ნაწილში.
+ 
+  2. Local Scope — Function Scope
+     ცვლადები, რომლებიც დეკლარებულია ფუნქციის შიგნით (var, let, const),
+     ხელმისაწვდომია მხოლოდ იმ ფუნქციის შიგნით.
+ 
+  3. Block Scope
+     let და const ქმნიან სკოპს, რომელიც იარსებებს მხოლოდ კოდის ბლოკის (მაგალითად, { ... })
+     შიგნით. var ბლოკური სკოპით არ გამოირჩევა და მოქმედებს ფუნქციურ სკოპში.
+ 
+  სკოპის მიზანია ხელი შეუშალოს ცვლადების გადაფარვას და გაურკვევლობას,
+  ასევე კოდის ორგანიზება და უსაფრთხოება -->
+
+
+  const randomNumber = Math.floor(Math.random() * 100) + 1;
+ console.log(randomNumber);
+
+
+</body>
+</html>
