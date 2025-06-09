@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>a</title>
+</head>
+<body>
+
+  <script>
+    const list1 = [1, 2, 3, 4];
+    const list2 = ["ა", "ბ", "გ"];
+    const list3 = [true, false, null, "კონე", 99];
+
+    const merged1 = list1.concat(list2);
+
+    const merged2 = merged1.concat(list3);
+
+    merged2.splice(2, 5);
+
+    delete merged2[2];
+
+    const lastElement = merged2[merged2.length - 1];
+
+    console.log("საბოლოო სია:", merged2);
+    console.log("ბოლო ელემენტი:", lastElement);
+  </script>
+</body>
+</html>

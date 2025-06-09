@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ლუწი თუ კენტი</title>
+</head>
+<body>
+
+  <script>
+    const userInput = prompt("შეიყვანე რიცხვი:");
+    const number = Number(userInput);
+
+    if (isNaN(number)) {
+      console.log("გთხოვ, სწორად შეიყვანე რიცხვი.");
+    } else {
+      if (number % 2 === 0) {
+        console.log(number + " არის ლუწი");
+      } else {
+        console.log(number + " არის კენტი");
+      }
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ფასდაკლება</title>
+</head>
+<body>
+  <script>
+    const ageInput = prompt("შეიყვანეთ თქვენი ასაკი:");
+    const age = Number(ageInput);
+
+    if (isNaN(age) || age < 0) {
+      console.log("გთხოვთ, შეიყვანოთ სწორი ასაკი.");
+    } else {
+      if (age < 18) {
+        console.log("თქვენ მიიღეთ 50% ფასდაკლება, რადგან არ ხართ სრულწლოვანი.");
+      } else {
+        console.log("თქვენ არ მიიღეთ ფასდაკლება, რადგან ხართ სრულწლოვანი.");
+      }
+    }
+  </script>
+</body>
+</html>
