@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+  <script>
+    let input = prompt("შეიყვანე რიცხვი:");
+    let number = parseInt(input);
+
+    if (!isNaN(number) && number >= 0) {
+      let i = 0;
+      while (i <= number) {
+        console.log(i);
+        i++;
+      }
+    } else {
+      console.log("გთხოვ შეიყვანო სწორი რიცხვი");
+    }
+  </script>
+</body>
+</html>
