@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Guess the Number</title>
+</head>
+<body>
+
+<script>
+let num = 7;
+let guess;
+
+while (true) {
+  guess = parseInt(prompt("შეიყვანე რიცხვი 0-დან 10-მდე:"));
+
+  switch (guess) {
+    case 0:
+    case 1:
+    case 2:
+    case 3:
+    case 4:
+    case 5:
+    case 6:
+    case 8:
+    case 9:
+    case 10:
+      console.log("არასწორია, სცადე თავიდან!");
+      break;
+    case 7:
+      console.log("სწორია! გამარჯობა მომხმარებელო!");
+      break;
+    default:
+      console.log("შეიყვანე მხოლოდ 0-დან 10-მდე რიცხვი!");
+  }
+
+  if (guess === num) {
+    break;
+  }
+}
+</script>
+
+</body>
+</html>

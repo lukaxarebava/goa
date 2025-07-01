@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Discount by Age</title>
+</head>
+<body>
+
+<script>
+function checkDiscount() {
+  let age = parseInt(prompt("შეიყვანეთ თქვენი ასაკი:"));
+
+  if (age <= 19) {
+    console.log("თქვენ მიიღეთ 30% ფასდაკლება");
+  } else if (age >= 19 && age < 50) {
+    console.log("თქვენ მიიღეთ 10% ფასდაკლება");
+  } else if (age >= 50) {
+    console.log("თქვენ მიიღეთ 50% ფასდაკლება");
+  } else {
+    console.log("გთხოვთ შეიყვანოთ სწორი ასაკი");
+  }
+}
+
+checkDiscount();
+</script>
+
+</body>
+</html>
