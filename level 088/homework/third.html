@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+</head>
+<body>
+
+  <button id="myButton">Click me</button>
+
+  <script>
+    let num = 0;
+
+    const button = document.getElementById('myButton');
+
+    button.addEventListener('click', () => {
+      num += 2;
+      console.log(num);
+    });
+  </script>
+
+</body>
+</html>

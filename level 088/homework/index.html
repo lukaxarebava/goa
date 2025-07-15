@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+</head>
+<body>
+
+  <h2>რეგისტრაციის ფორმა</h2>
+
+  <form id="registerForm">
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" required><br><br>
+
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" required><br><br>
+
+    <input type="submit" value="Submit">
+  </form>
+
+  <script>
+    const form = document.getElementById('registerForm');
+
+    form.addEventListener('submit', function(event) {
+      event.preventDefault(); // არ აძლევს ფორმას გვერდის გადატვირთვას
+
+      const email = document.getElementById('email').value;
+      const password = document.getElementById('password').value;
+
+      console.log("Email:", email);
+      console.log("Password:", password);
+    });
+  </script>
+
+</body>
+</html>
