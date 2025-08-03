@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 20px;
+    }
+    input {
+      margin: 5px;
+      padding: 5px;
+    }
+    #output p {
+      margin: 10px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>შეიყვანე ინფორმაცია:</h2>
+
+  <input type="text" id="firstName" placeholder="სახელი">
+  <input type="text" id="lastName" placeholder="გვარი">
+  <input type="date" id="birthDate">
+  <button id="submitBtn">დამატება</button>
+
+  <div id="output"></div>
+
+  <script>
+    const btn = document.getElementById('submitBtn');
+    const output = document.getElementById('output');
+
+    btn.addEventListener('click', () => {
+      const name = document.getElementById('firstName').value.trim();
+      const surname = document.getElementById('lastName').value.trim();
+      const birthDate = document.getElementById('birthDate').value;
+
+      if (!name || !surname || !birthDate) {
+        alert('გთხოვ შეავსო ყველა ველი');
+        return;
+      }
+
+      const birthYear = new Date(birthDate).getFullYear();
+      const currentYear = new Date().getFullYear();
+      const age = currentYear - birthYear;
+
+      const message = `გამარჯობა ${name} ${surname}, შენ ხარ ${age} წლის!`;
+
+      const p = document.createElement('p');
+      p.textContent = message;
+      output.appendChild(p);
+
+      document.getElementById('firstName').value = '';
+      document.getElementById('lastName').value = '';
+      document.getElementById('birthDate').value = '';
+    });
+  </script>
+
+</body>
+</html>

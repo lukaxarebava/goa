@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    #paragraph-container p {
+      font-size: 18px;
+      margin: 8px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <button id="add-paragraph-btn">color</button>
+  <div id="paragraph-container"></div>
+
+  <script>
+    const colors = ['red', 'blue', 'green', 'orange', 'purple', 'brown', 'teal', 'crimson'];
+    let index = 0;
+
+    const button = document.getElementById('add-paragraph-btn');
+    const container = document.getElementById('paragraph-container');
+
+    button.addEventListener('click', () => {
+      const p = document.createElement('p');
+      p.textContent = `პარაგრაფი #${index + 1}`;
+      p.style.color = colors[index % colors.length];
+      container.appendChild(p);
+      index++;
+    });
+  </script>
+
+</body>
+</html>

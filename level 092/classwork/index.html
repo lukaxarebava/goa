@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    #photo-container img {
+      width: 200px;
+      margin: 10px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <button id="add-photo-btn">ფოტოს დამატება</button>
+  <div id="photo-container"></div>
+
+  <script>
+    const photoList = [
+      'https://wallpaperaccess.com/full/2230766.jpg',
+      'https://cmx.weightwatchers.com/assets-proxy/weight-watchers/image/upload/v1594406683/visitor-site/prod/ca/burgers_mobile_my18jv',
+      'https://www.mpofcinci.com/images/stories/f35/02-large.jpg',
+      'https://wallpapercave.com/wp/wp3632539.jpg',
+      'https://tse3.mm.bing.net/th/id/OIP.YjJSBQVO5Cy9RBxwNqfj7AHaJ5?pid=Api&P=0&h=220'
+    ];
+
+    let currentIndex = 0;
+
+    const button = document.getElementById('add-photo-btn');
+    const container = document.getElementById('photo-container');
+
+    button.addEventListener('click', () => {
+      if (currentIndex >= photoList.length) {
+        currentIndex = 0;
+      }
+
+      const img = document.createElement('img');
+      img.src = photoList[currentIndex];
+      container.appendChild(img);
+      currentIndex++;
+    });
+  </script>
+
+</body>
+</html>
